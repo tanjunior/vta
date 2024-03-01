@@ -31,3 +31,24 @@ body {
     text-wrap: balance;
   }
 }
+
+::view-transition-old(root),
+::view-transition-new(root) {
+  animation-duration: 2s;
+  animation: none;
+  mix-blend-mode: normal;
+}
+
+::view-transition-old(logo-link),
+::view-transition-new(logo-link) {
+  animation-duration: 2s;
+  animation: none;
+  mix-blend-mode: normal;
+}
+
+::view-transition-old(logo-wrapper),
+::view-transition-new(logo-wrapper) {
+  animation-duration: 2s;
+  animation: none;
+  mix-blend-mode: normal;
+}

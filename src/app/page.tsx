@@ -9,9 +9,9 @@ export default function Home() {
 
         <div>
           <h1>Link wrapper (useViewTransition)</h1>
-          <LinkTransition href="/test" viewTransitionName="logo">
+          <LinkTransition href="/wrapper" transition="logo-wrapper">
             <Image
-              className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
+              className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert logo"
               src="/next.svg"
               alt="Next.js Logo"
               width={180}
@@ -24,13 +24,13 @@ export default function Home() {
         <div>
           <h1>Link (AutoViewTransitionsOnClick)</h1>
           <Link
-            href="/test"
+            href="/link"
             style={{
-              viewTransitionName: "logo",
+              viewTransitionName: "logo-link"
             }}
           >
             <Image
-              className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
+              className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert logo"
               src="/next.svg"
               alt="Next.js Logo"
               width={180}
