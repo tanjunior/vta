@@ -1,0 +1,1 @@
+declare module "use-view-transitions/next";
